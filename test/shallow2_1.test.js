@@ -12,7 +12,7 @@ function shallowRender(Component, props) {
 describe('检测组件是否可用', function() {
   it('该组件正常情况下不应该有todo-done类名', function() {
     const todoItemData = {
-      id: 0,
+      id: 1,
       name: 'abc',
       done: false,
     };
